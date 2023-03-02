@@ -1,0 +1,22 @@
+let on_off = document.querySelector('.container .title');
+let audio = document.querySelector('.musicOn audio');
+
+on_off.onclick = function() {
+  audio.paused ? audio.play() : audio.pause();
+}
+<div class="musicOn">
+    <audio id="audio" style="display:none;" src="2.mp3" controls autoplay loop>
+  </div>
+  <div class="pankaj">
+    <h1 class="pankaj1">UDD <span>Gaya</span>Song </h1>
+  </div>
+
+  <script>
+
+let on_off = document.querySelector('.pankaj .pankaj1');
+let audio = document.querySelector('.musicOn audio');
+
+on_off.onclick = function() {
+  audio.paused ? audio.play() : audio.pause();
+}
+  </script>
